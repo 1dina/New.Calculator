@@ -30,7 +30,7 @@
             android:layout_toEndOf="@+id/parentImg"
             android:text="History" />
 
-        <com.example.calculator.NoScrollRecycleView
+        <com.example.calculator.HistoryRV.NoScrollRecycleView
             android:id="@+id/child_content"
             android:layout_width="80dp"
         android:layout_height="80dp"

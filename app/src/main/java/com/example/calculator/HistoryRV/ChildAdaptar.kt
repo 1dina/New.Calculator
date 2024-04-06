@@ -1,13 +1,13 @@
-package com.example.calculator
+package com.example.calculator.HistoryRV
 
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.calculator.R
 
 class ChildAdaptar : RecyclerView.Adapter<ChildAdaptar.ViewHolder>() {
     var childList : ArrayList<ChildBody> = arrayListOf()

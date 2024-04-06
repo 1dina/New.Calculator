@@ -1,3 +1,3 @@
-package com.example.calculator
+package com.example.calculator.HistoryRV
 
 data class ChildBody (val text : String)

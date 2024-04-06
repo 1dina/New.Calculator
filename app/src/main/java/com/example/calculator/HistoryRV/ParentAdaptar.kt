@@ -1,16 +1,15 @@
-package com.example.calculator
+package com.example.calculator.HistoryRV
 
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.calculator.R
 
 class ParentAdaptar : RecyclerView.Adapter<ParentAdaptar.ViewHolder>() {
     var parentList: ArrayList<ParentBody> = arrayListOf()

@@ -33,6 +33,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    dataBinding{
+        enable = true
+    }
 }
 
 dependencies {
@@ -48,4 +51,8 @@ dependencies {
     implementation("com.faendir.rhino:rhino-android:1.5.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    val lifecycle_version = "2.7.0"
+    implementation("androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-livedata:$lifecycle_version")
+    implementation ("androidx.lifecycle:lifecycle-extensions:2.1.0")
 }
